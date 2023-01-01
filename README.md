@@ -8,10 +8,10 @@ Linux da disk durumunu kullanıcı arayüzü ile göstermeyi amaçlamaktadir .
 
 
 df -h komuutunun kullanıcı okunurlugu için vermiş oldugu çıktılarınn görünmü şu şekildedir 
-<br/> [ df -h](blob:https://medium.com/5a8189d8-ed59-4598-be18-72e57d36b4c7) <br/> 
+<br/> ![ df -h](blob:https://medium.com/5a8189d8-ed59-4598-be18-72e57d36b4c7) <br/> 
 
 whiptail araçlarından processing baar şeklinde gösterimi 
-[uı_output](blob:https://medium.com/918b5996-33e6-4ad2-9c0a-e4eab18516bb)
+<br/>![uı_output](blob:https://medium.com/918b5996-33e6-4ad2-9c0a-e4eab18516bb)
 
 ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ayrılmış 1 er artım şeklinde ilerlemesi sağlanan for döngüsü içinde komut çıktısındaki deger ile eşleşmesi durumunda ilerleme barı (kırmızı renk ile gösterilen )  ilgili degerin konumuna yerşeltirilir . Kullanıcıya gösterilmek üzere belirli bir bekleme süresinden sonra döngüden çıkılır ve komut ekranına dönülür .
 
