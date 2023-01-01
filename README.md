@@ -7,7 +7,7 @@ Linux da disk durumunu kullanıcı arayüzü ile göstermeyi amaçlamaktadir .
  
 
 
-df -h komuutunun kullanıcı okunurlugu için vermiş oldugu çıktılarınn görünmü şu şekildedir # Web Oyun Projem-Arı Çiçek Oyunu
+df -h komuutunun kullanıcı okunurlugu için vermiş oldugu çıktılarınn görünmü şu şekildedir 
 <br/> [ df -h](blob:https://medium.com/5a8189d8-ed59-4598-be18-72e57d36b4c7) <br/> 
 
 whiptail araçlarından processing baar şeklinde gösterimi 
