@@ -14,7 +14,7 @@ df -h komuutunun kullanıcı okunurlugu için vermiş oldugu çıktılarınn gö
 
 
 whiptail araçlarından processing baar şeklinde gösterimi 
-<br/>![uı_output](blob:https://medium.com/918b5996-33e6-4ad2-9c0a-e4eab18516bb)
+<br/>![uı_output](https://miro.medium.com/max/1400/1*49ew-KgEA1GphFhNiJFpHA.webp) <br/>
 
 ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ayrılmış 1 er artım şeklinde ilerlemesi sağlanan for döngüsü içinde komut çıktısındaki deger ile eşleşmesi durumunda ilerleme barı (kırmızı renk ile gösterilen )  ilgili degerin konumuna yerşeltirilir . Kullanıcıya gösterilmek üzere belirli bir bekleme süresinden sonra döngüden çıkılır ve komut ekranına dönülür .
 
