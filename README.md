@@ -30,8 +30,8 @@ Ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ay
   <br/><br/>
   # Dosya Nasıl Çalışıyor?
   Diskin doluluk durumuna göre bir bekleme süresi geçtik den sonra (yüzde olarak ilerleme ) bar kısmında kırmızı bar ilerleyerek aranan değere gelir kullanıcının görmesi için bilinçli olarak bekletildikten sonra komut ekranına dönülür .<br/><br/>
-   ** # df -h komutu nedir ? 
+   # df -h komutu nedir ? 
    df -h – Daha iyi ve daha insan tarafından okunabilir formatta gösterecek. Bu şekilde disk boyutu GB ile gösterilecek.
-  <br/><br/>** 
+  <br/><br/>
 # Projeye Eklenebilecek Özellikler 
 `df -h `komut çıktılarını her birinin seçilmesi durumunda doluluk oranını gösterilmesi sağlanabilir .
