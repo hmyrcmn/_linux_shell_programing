@@ -12,11 +12,11 @@ Linux da disk durumunu kullanıcı arayüzü ile göstermeyi amaçlamaktadir .
 <br/><br/><br/><br/>
 <br/>![KOMUT ÇIKTI GÖRÜNTÜSÜ görüntüler](https://miro.medium.com/max/1400/1*gOTMmsChrE6o-HdHlUQLVA.webp)<br/>
 <br/><br/>
-
-# komut çıktısının whiptail araçlarından processing bar şeklinde gösterimi <br/><br/>
+ komut çıktısının whiptail araçlarından processing bar şeklinde gösterimi <br/><br/>
 <br/>![uı_output](https://miro.medium.com/max/1400/1*49ew-KgEA1GphFhNiJFpHA.webp) <br/>
 <br/><br/>
-ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ayrılmış 1 er artım şeklinde ilerlemesi sağlanan for döngüsü içinde komut çıktısındaki deger ile eşleşmesi durumunda ilerleme barı (kırmızı renk ile gösterilen )  ilgili degerin konumuna yerşeltirilir . Kullanıcıya gösterilmek üzere belirli bir bekleme süresinden sonra döngüden çıkılır ve komut ekranına dönülür .
+
+Ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ayrılmış 1 er artım şeklinde ilerlemesi sağlanan for döngüsü içinde komut çıktısındaki deger ile eşleşmesi durumunda ilerleme barı (kırmızı renk ile gösterilen )  ilgili degerin konumuna yerşeltirilir . Kullanıcıya gösterilmek üzere belirli bir bekleme süresinden sonra döngüden çıkılır ve komut ekranına dönülür .
 <br/><br/>
 # whiptail işleme :
 `| whiptail --gauge "disk doluluk oranı hesaplanana kadar  lütfen bekleyiniz! " 6 60 0 \` <br/>
