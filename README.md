@@ -1,10 +1,14 @@
 <br/><br/>
 # _linux_shell_programing
 show the disk fullness situation with  whiptail user interface in shell programming <br/><br/>
-
+shell programlamada whiptail kullanıcı arayüzüne df -h komutu aktarılmıştır.  <br/><br/>
+df- h : disk doluluk durumunu gösteren komut  <br/><br/>
+# DETAYLI ANLATIM
+ 
+<br/><br/>
 # PROJE GENEL ÖZET 
 Linux da disk durumunu kullanıcı arayüzü ile göstermeyi amaçlamaktadır .
- Proje` df -h` komutunun kullanıcı dostu çıktısı (GB olarak gösterilen boyutlar) shell programlama ile ayrıştırılarak whitpail araçlarından processing bar ile kullanıcıya görsel olarak sunulmasını sağlar.
+ Proje` df -h` komutunun kullanıcı dostu çıktısı (GB olarak gösterilen boyutlar) shell programlama ile ayrıştırılarak whitpail araçlarından processing bar aracılığyla kullanıcıya görsel olarak sunulmasını sağlar.
  <br/>
 
 
@@ -16,7 +20,7 @@ Linux da disk durumunu kullanıcı arayüzü ile göstermeyi amaçlamaktadır .
 <br/>![uı_output](https://miro.medium.com/max/1400/1*49ew-KgEA1GphFhNiJFpHA.webp) <br/>
 <br/><br/>
 
-Ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ayrılmış 1 er artım şeklinde ilerlemesi sağlanan for döngüsü içinde komut çıktısındaki değer ile eşleşmesi durumunda ilerleme barı (kırmızı renk ile gösterilen)  ilgili değerin konumuna yerleştirilir . Kullanıcıya gösterilmek üzere belirli bir bekleme süresinden sonra döngüden çıkılır ve komut ekranına dönülür.
+Ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ayrılmış 1 er artım şeklinde  ( sleep 1 ile bekleme sağlanarak ekranda ilerleme kullanıcıya gösterilir) ilerlemesi sağlanan for döngüsü içinde komut çıktısındaki değer ile eşleşmesi durumunda ilerleme barı (kırmızı renk ile gösterilen)  ilgili değerin konumuna sabitlenir  . Kullanıcıya gösterilmek üzere belirli bir bekleme süresinden sonra döngüden çıkılır ve komut ekranına dönülür.
 <br/><br/>
 # whiptail işleme 
 `| whiptail --gauge "disk doluluk oranı hesaplanana kadar lütfen bekleyiniz! " 6 60 0 \` <br/>
@@ -26,8 +30,9 @@ Ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ay
    `--title "processing bar title " `   <br/>
    <br/><br/>
   # Nasıl Çalıştırılır?
-  .sh uzantılı indirilerek komut ekranından bash dosya_ismi.sh şeklinde çalıştırılır.
+  uı.sh uzantılı dosya  indirilerek komut ekranından `bash uı.sh ` şeklinde çalıştırılır.
   <br/><br/>
+  
   # Dosya Nasıl Çalışıyor?
   Diskin doluluk durumuna göre bir bekleme süresi geçtik den sonra (yüzde olarak ilerleme ) bar kısmında kırmızı bar ilerleyerek aranan değere gelir kullanıcının görmesi için bilinçli olarak bekletildikten sonra komut ekranına dönülür .<br/><br/>
    # df -h komutu nedir ? 
