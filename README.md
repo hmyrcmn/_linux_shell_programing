@@ -39,4 +39,4 @@ Ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ay
    df -h – Daha iyi ve daha insan tarafından okunabilir formatta gösterecek. Bu şekilde disk boyutu GB ile gösterilecek.
   <br/><br/>
 # Projeye Eklenebilecek Özellikler 
-`df -h `komut çıktılarını her birinin seçilmesi durumunda doluluk oranını gösterilmesi sağlanabilir .
+`df -h `komutlar çeşitlendirilebilir .
