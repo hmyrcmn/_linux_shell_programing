@@ -23,9 +23,9 @@ Linux da disk durumunu kullanıcı arayüzü ile göstermeyi amaçlamaktadır .
 Ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ayrılmış 1 er artım şeklinde  ( sleep 1 ile bekleme sağlanarak ekranda ilerleme kullanıcıya gösterilir) ilerlemesi sağlanan for döngüsü içinde komut çıktısındaki değer ile eşleşmesi durumunda ilerleme barı (kırmızı renk ile gösterilen)  ilgili değerin konumuna sabitlenir  . Kullanıcıya gösterilmek üzere belirli bir bekleme süresinden sonra döngüden çıkılır ve komut ekranına dönülür.
 <br/><br/>
 # whiptail işleme 
-`| whiptail --gauge "disk doluluk oranı hesaplanana kadar lütfen bekleyiniz! " 6 60 0 \` <br/>
+`| whiptail --gauge "disk doluluk oranı hesaplanıyor lütfen bekleyiniz...  " 6 70 0 \` <br/>
   Whiptail parametreleri eşleştirmesi şu şekildedir :<br/>
- ` -- text alanı processing bara ait bilgi içerir -- width -- height -- frame sayısı`  <br/>
+ ` -- text alanı processing bara ait bilgi içerir --<height> <width> <inital percent>
 `   --backtitle "arka planda üst kısımda çıkan yazı " `  : burada reel veriler yer almaktadır diske ait toplam alan ne kadar kullanımda veya değil gibi bilgiler GB olarak yer almaktadır  
    `--title "processing bar title " `   <br/>
    <br/><br/>
