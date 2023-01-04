@@ -38,5 +38,6 @@ Ayrıştırılan komut çıktısından elde edilen yüzde bilgisi yüz dilime ay
    # df -h komutu nedir ? 
    df -h – Daha iyi ve daha insan tarafından okunabilir formatta gösterecek. Bu şekilde disk boyutu GB ile gösterilecek.
   <br/><br/>
-# Projeye Eklenebilecek Özellikler 
-`df -h `komutlar çeşitlendirilebilir .
+# Projeye Eklenebilecek Özellikler <br/><br/> 
+`df -h ` gibi komutlar çeşitlendirilebilir .
+Komut çıktısı ayrıştıma için daha verilmi yöntemler kullanılabilir . 
