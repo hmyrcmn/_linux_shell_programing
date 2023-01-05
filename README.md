@@ -5,7 +5,7 @@ shell programlamada whiptail kullanıcı arayüzüne df -h komutu aktarılmışt
 df- h : disk doluluk durumunu gösteren komut  <br/><br/>
 # DETAYLI ANLATIM
 
-(https://youtu.be/2vWTGVvlZYQ)
+[KOMUTLARI DETAYLANDIRDIĞIM YOUTUBE VİDEO M](https://youtu.be/2vWTGVvlZYQ)
  
 <br/><br/>
 # PROJE GENEL ÖZET 
