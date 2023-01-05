@@ -4,6 +4,8 @@ show the disk fullness situation with  whiptail user interface in shell programm
 shell programlamada whiptail kullanıcı arayüzüne df -h komutu aktarılmıştır.  <br/><br/>
 df- h : disk doluluk durumunu gösteren komut  <br/><br/>
 # DETAYLI ANLATIM
+
+(https://youtu.be/2vWTGVvlZYQ)
  
 <br/><br/>
 # PROJE GENEL ÖZET 
